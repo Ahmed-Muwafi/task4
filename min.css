@@ -1,0 +1,109 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contaner
+{
+  width: 80%;
+
+  margin: auto;
+
+  padding: 10px;
+
+
+}
+
+.navbar
+{
+  background-color: black;
+
+  position: sticky;
+  
+}
+
+.contaner
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img
+{
+  width: 150px;
+}
+
+ul
+{
+  list-style-type: none;
+
+  display: flex;
+
+}
+
+a
+{
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+
+  text-transform: uppercase;
+}
+
+.two
+{
+  font-size: 50px;
+}
+.header
+{
+  background-color: rgba(0, 0, 0, 0.89);
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1
+{
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  margin-top: 30px;
+}
+
+.portfolio .contaner
+{
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  align-items: center;
+
+  gap: 20px;
+}
+
+.row1
+{
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 20px;
+}
+.row2
+{
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 20px;
+}
